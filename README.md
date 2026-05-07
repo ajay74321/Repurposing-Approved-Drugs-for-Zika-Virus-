@@ -117,3 +117,101 @@ Interaction Analysis
        ↓
 Identification of Potential Inhibitors
 
+🧬 Binding Site Analysis
+
+The selected binding pocket demonstrated:
+
+Largest surface area
+Largest pocket volume
+Presence of active site residues
+High druggability score
+Tool	Score
+PockDrug	0.69
+💊 Top Docked Compounds
+1️⃣ Dofequidar
+Property	Value
+PubChem CID	213040
+LibDock Score	177.642
+Description
+Synthetic quinoline derivative
+Known P-glycoprotein inhibitor
+Showed highest docking affinity
+Potential Role
+
+May improve intracellular retention of antiviral compounds and influence viral transport mechanisms.
+
+2️⃣ Peptidomimetic Inhibitor
+
+Compound:
+1-[2-(3-Biphenyl)-4-methylvaleryl)]amino-3-(2-pyridylsulfonyl)amino-2-propanone
+
+Property	Value
+PubChem CID	5288593
+LibDock Score	176.212
+Potential Role
+
+Associated with Cathepsin K inhibition which may interfere with viral entry pathways.
+
+3️⃣ 10-Propargyl-5,8-dideazafolic acid
+Property	Value
+PubChem CID	135438608
+LibDock Score	173.777
+Potential Role
+
+May indirectly support host DNA repair pathways affected during infection.
+
+4️⃣ Carbamic Acid Derivative
+Property	Value
+PubChem CID	5289091
+LibDock Score	173.718
+Potential Role
+
+Related to cysteine protease pathways potentially associated with viral infection mechanisms.
+
+5️⃣ Ximelagatran
+Property	Value
+PubChem CID	9574101
+LibDock Score	171.468
+Observation
+
+Although docking affinity was strong, its therapeutic suitability is limited due to bleeding risks and unrelated biological mechanisms.
+
+🔗 Protein–Ligand Interaction Analysis
+
+Interaction studies were performed to analyze:
+
+Hydrogen bonding
+Hydrophobic interactions
+Active site residue interactions
+Binding stability
+Protein–ligand affinity
+
+These analyses helped validate docking results and identify compounds with stronger interaction potential.
+
+🛠️ Tools and Databases Used
+📚 Databases
+PubChem
+DrugBank
+Protein Data Bank (PDB)
+⚙️ Computational Tools
+LibDock
+PockDrug
+CASTp
+Discovery Studio
+📊 Results
+Key Findings
+Dofequidar achieved the highest LibDock score
+Multiple compounds formed stable active-site interactions
+The target pocket showed strong druggability characteristics
+Structure-based repurposing demonstrated potential for antiviral screening
+✅ Conclusion
+
+This project demonstrates the effectiveness of computational drug repurposing approaches for identifying potential antiviral candidates against Zika virus.
+
+The NS2B-NS3 serine protease proved to be a promising therapeutic target due to:
+
+Essential role in viral replication
+Favorable druggability profile
+Availability of crystal structure
+
+The identified compounds require experimental validation for further development.
