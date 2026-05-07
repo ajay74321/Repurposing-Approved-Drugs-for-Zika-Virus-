@@ -1,166 +1,119 @@
 # Repurposing-Approved-Drugs-for-Zika-Virus-
 Computational drug repurposing project targeting the Zika virus NS2B-NS3 serine protease using structure-based virtual screening, binding site analysis, and molecular docking. Identified potential antiviral candidates through LibDock scoring and protein–ligand interaction analysis using bioinformatics tools and public databases.
 
-🔍 Overview
 
-This project focuses on the computational repurposing of approved and bioactive compounds against the Zika virus using a structure-based drug discovery approach. The study targets the NS2B-NS3 serine protease, a crucial viral enzyme required for polyprotein processing and viral replication.
+# 🧬 Repurposing Approved Drugs for Zika Virus
 
-By integrating binding site prediction, druggability assessment, molecular docking, and protein–ligand interaction analysis, the project identifies potential compounds that may act as inhibitors against the Zika virus protease.
+![Bioinformatics](https://img.shields.io/badge/Bioinformatics-Project-blue)
+![Drug Repurposing](https://img.shields.io/badge/Drug%20Repurposing-Computational-green)
+![Molecular Docking](https://img.shields.io/badge/Molecular%20Docking-LibDock-orange)
+![Status](https://img.shields.io/badge/Status-Completed-success)
 
-🌍 Background
-About Zika Virus
+## 📌 Project Description
 
-Zika virus is a mosquito-borne flavivirus first identified in monkeys in Uganda in 1947 and later discovered in humans in 1952. It is a positive single-stranded RNA virus primarily transmitted by Aedes mosquitoes.
+Computational drug repurposing project focused on identifying potential inhibitors against the **Zika Virus NS2B-NS3 serine protease** using structure-based virtual screening, binding site prediction, molecular docking, and protein–ligand interaction analysis.
 
-Key Facts
-Causes fever, rash, conjunctivitis, muscle pain, and joint pain
-Infection during pregnancy may lead to microcephaly and congenital disorders
-Declared a Public Health Emergency of International Concern (PHEIC) by WHO in 2016
-No specific antiviral treatment currently available
-No fully effective vaccine available for prevention
-🎯 Project Objective
+---
 
-The main objective of this project is:
+## 📖 Table of Contents
 
-To identify potential repurposed drug candidates against the Zika virus NS2B-NS3 serine protease using computational molecular docking and interaction analysis.
+- [Overview](#-overview)
+- [Background](#-background)
+- [Project Objective](#-project-objective)
+- [Target Protein](#-target-protein)
+- [Methodology](#-methodology)
+- [Binding Site Analysis](#-binding-site-analysis)
+- [Top Docked Compounds](#-top-docked-compounds)
+- [Protein–Ligand Interaction Analysis](#-proteinligand-interaction-analysis)
+- [Tools and Databases Used](#️-tools-and-databases-used)
+- [Results](#-results)
+- [Conclusion](#-conclusion)
+- [Future Scope](#-future-scope)
+- [References](#-references)
+- [Author](#-author)
 
-This approach helps accelerate antiviral drug discovery by utilizing existing compounds with known biological activity.
+---
 
-🧪 Target Protein
-NS2B-NS3 Serine Protease
+# 🔍 Overview
 
-The NS2B-NS3 serine protease plays a critical role in the viral life cycle.
+This project focuses on the computational repurposing of approved and bioactive compounds against the Zika virus using a structure-based drug discovery approach.
 
-Why this target?
-Essential for viral replication
-Performs polyprotein cleavage
-Druggable binding pocket
-No close human homolog
-Crystal structure available
-Protein Information
-Feature	Details
-Target Protein	NS2B-NS3 Serine Protease
-Virus	Zika Virus
-PDB ID	5LC0
-Protein Type	Non-structural Protein
-⚙️ Methodology
-Workflow
-Selection of Zika virus target protein
-Retrieval of crystal structure (PDB ID: 5LC0)
-Binding site prediction and pocket analysis
-Druggability assessment using PockDrug
-Compound selection from public databases
-Molecular docking using LibDock
-Ranking based on docking score
-Protein–ligand interaction analysis
-Identification of top potential inhibitors
-🧬 Binding Site Analysis
+The study targets the **NS2B-NS3 serine protease**, a crucial viral enzyme responsible for polyprotein cleavage and viral replication.
 
-The selected binding pocket showed:
+The workflow integrates:
 
-Largest surface area
-Largest pocket volume
-Presence of active site residues
-High druggability probability
-Druggability Score
-Tool	Score
-PockDrug	0.69
-💊 Top Docked Compounds
-1. Dofequidar
-Details
-Property	Value
-PubChem CID	213040
-LibDock Score	177.642
-Compound Type	Quinoline Derivative
-Description
+- Binding site prediction
+- Druggability assessment
+- Molecular docking
+- Protein–ligand interaction analysis
 
-Dofequidar is an orally available synthetic quinoline derivative known for multidrug resistance modulation and P-glycoprotein inhibition.
+to identify potential antiviral compounds against Zika virus.
 
-Potential Role Against Zika Virus
+---
 
-Although Dofequidar does not directly target viral replication, inhibition of P-glycoprotein may increase intracellular retention of antiviral compounds and potentially influence viral component transport.
+# 🌍 Background
 
-2. 1-[2-(3-Biphenyl)-4-methylvaleryl)]amino-3-(2-pyridylsulfonyl)amino-2-propanone
-Details
-Property	Value
-PubChem CID	5288593
-LibDock Score	176.212
-Compound Type	Covalent Peptidomimetic Inhibitor
-Mechanism
+## About Zika Virus
 
-Associated with Cathepsin K inhibition.
+Zika virus is a mosquito-borne flavivirus first identified in Uganda in 1947.
 
-Potential Role Against Zika Virus
+### Key Facts
 
-Studies suggest cathepsins may assist viral entry into host cells. Inhibition of Cathepsin K could interfere with this process and reduce viral spread.
+- Positive single-stranded RNA virus
+- Primarily transmitted by *Aedes* mosquitoes
+- Causes fever, rash, conjunctivitis, and joint pain
+- Infection during pregnancy may lead to microcephaly
+- WHO declared Zika-related microcephaly a Public Health Emergency in 2016
+- No specific antiviral treatment currently available
 
-3. 10-Propargyl-5,8-dideazafolic acid
-Details
-Property	Value
-PubChem CID	135438608
-LibDock Score	173.777
-Functional Association	Thymidylate Synthase
-Potential Role Against Zika Virus
+---
 
-This compound may indirectly assist host cell recovery by supporting DNA repair pathways affected during viral infection.
+# 🎯 Project Objective
 
-4. [1-(3-Hydroxy-2-oxo-1-phenethyl-propylcarbamoyl)-2-phenyl-ethyl]-carbamic acid pyridin-4-ylmethyl ester
-Details
-Property	Value
-PubChem CID	5289091
-LibDock Score	173.718
-Mechanism	Cysteine Protease Related
-Potential Role Against Zika Virus
+> To identify potential repurposed drug candidates against the Zika virus NS2B-NS3 serine protease using computational molecular docking and interaction analysis.
 
-May indirectly affect viral entry by targeting protease pathways associated with host cell infection mechanisms.
+---
 
-5. Ximelagatran
-Details
-Property	Value
-PubChem CID	9574101
-LibDock Score	171.468
-Mechanism	Thrombin Inhibitor
-Observations
+# 🧪 Target Protein
 
-Although it showed strong docking scores, Ximelagatran is unlikely to directly inhibit Zika viral replication because its primary target is associated with blood clotting pathways.
+## NS2B-NS3 Serine Protease
 
-Safety concerns related to bleeding risks also reduce its therapeutic suitability.
+The NS2B-NS3 serine protease is essential for viral replication and processing of the viral polyprotein.
 
-🔗 Protein–Ligand Interaction Analysis
+## Why this target?
 
-Protein–ligand interaction studies were performed for all top-ranked compounds to analyze:
+- Essential for viral survival
+- Druggable binding pocket
+- No close human homolog
+- Crystal structure available
 
-Hydrogen bonding interactions
-Hydrophobic interactions
-Pi interactions
-Active site residue contacts
-Binding stability within the pocket
+| Feature | Details |
+|---|---|
+| Target Protein | NS2B-NS3 Serine Protease |
+| Virus | Zika Virus |
+| PDB ID | 5LC0 |
+| Protein Type | Non-structural Protein |
 
-These interactions helped validate docking results and identify compounds with stronger binding affinity.
+---
 
-🛠️ Tools and Databases Used
-Databases
-PubChem
-DrugBank
-Protein Data Bank (PDB)
-Computational Tools
-LibDock
-PockDrug
-CASTp
-Discovery Studio
-📊 Results
+# ⚙️ Methodology
 
-The study successfully identified several compounds with high docking affinity against the NS2B-NS3 serine protease.
+## Workflow
 
-Key Findings
-Dofequidar achieved the highest LibDock score
-Multiple compounds formed stable interactions with active site residues
-The target pocket demonstrated good druggability characteristics
-Structure-based repurposing showed promise for rapid antiviral screening
-✅ Conclusion
+```text
+Target Selection
+       ↓
+Protein Structure Retrieval (PDB: 5LC0)
+       ↓
+Binding Site Prediction
+       ↓
+Druggability Assessment
+       ↓
+Compound Selection
+       ↓
+Molecular Docking (LibDock)
+       ↓
+Interaction Analysis
+       ↓
+Identification of Potential Inhibitors
 
-This project demonstrates the potential of computational drug repurposing approaches for identifying antiviral candidates against the Zika virus.
-
-The NS2B-NS3 serine protease proved to be a promising therapeutic target due to its essential role in viral replication and favorable druggability profile.
-
-While the identified compounds require experimental validation, the study highlights the effectiveness of molecular docking and interaction analysis in accelerating early-stage drug discovery.
