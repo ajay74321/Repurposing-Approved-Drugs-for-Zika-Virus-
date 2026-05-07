@@ -302,6 +302,5 @@ The identified compounds require experimental validation for further development
 ## Chandra Prakash Ajay
 
 **MTech Computational Biology**  
-Bioinformatics | Computational Drug Discovery | AI/ML in Biology
 
 ---
